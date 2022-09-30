@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;600&display=swap');
+
+.main-Gif {
+        height: 46%;
+        width: 46%;
+        border-radius: 16px;
+    
+        /* Found the following method to center an img on */
+        /* https://www.freecodecamp.org/news/html-center-image-css-align-img-center-example/ */
+        display: block;
+        margin: 0 auto;
+}
+
+img {
+    height: 36%;
+    width: 36%;
+    border-radius: 16px;
+
+    /* Found the following method to center an img on */
+    /* https://www.freecodecamp.org/news/html-center-image-css-align-img-center-example/ */
+    display: block;
+    margin: 0 auto;
+}
+
+h1, h2, p.note, p.recipe-description {
+    text-align: center;
+    justify-items: center;
+    font-family: 'Dosis', sans-serif;
+}
+
+h1 {
+    font-size: 42px;
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 26px;
+}
+
+h1, h2 {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+p strong {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 900;
+    font-size: 28px;
+} 
+
+body {
+    background-color: #acdeaa;
+}
+
+h1, h2 {
+    color: #242424;
+}
+
+li, p {
+    columns: #505050;
+    font-family: 'Dosis', sans-serif;
+    font-size: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: darken(#6b7b8e, 80%);
+    font-size: 21px;
+}
+.scroll-up, .home-page {
+    margin-left: 18px;
+}
+
+
